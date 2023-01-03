@@ -7,8 +7,9 @@
 }
 
 body {
-  background-image: url(images/image_geometry_1.png);
+  background-image: url(./images/mobile-back1.png);
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #toolbar {
@@ -24,7 +25,7 @@ body {
 .menues {
   font-size: 21px;
 }
-
+.see,
 .desk,
 .bigmage,
 .form-name-message p {
@@ -32,127 +33,198 @@ body {
 }
 
 .name {
-  font-family: 'Playfair Display', serif;
-  font-size: 50px;
-  font-weight: 400;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
   line-height: 100%;
-  width: 200px;
+  width: 100%;
   padding: 16px;
   margin: 0;
-  margin-top: 100px;
-  color: #1a2236;
+  margin-top: 90px;
+  color: #ec5242;
+}
+
+.date {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0 16px;
+  color: #595959;
+
+}
+
+.adress {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  padding: 0 16px 32px;
 }
 
 .headline {
   width: 90%;
-  height: 126px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  height: auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  line-height: 17px;
   color: #1a2236;
-  padding: 16px;
-  font-weight: 400;
+  padding: 17px 14px;
+  font-weight: bold;
   letter-spacing: -0.02em;
-  margin-bottom: 40px;
+  margin: 0 16px 20px;
+  background: #f8f8f8;
+  border: 4px solid #fff;
 }
 
 .textBoton {
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   color: #fff;
   text-align: center;
 }
 
 .blackBoton {
-  font-family: 'Poppins', sans-serif;
-  margin: 16px 16px;
+  font-family: 'Lato', sans-serif;
+  margin: 16px auto;
   width: 90%;
-  height: 50px;
-  background: #1a2236;
+  height: 68px;
+  background: #FF4F38;
   color: #fff;
-  margin-bottom: 32px;
 }
 
-.imagebox {
-  display: block;
-  height: 160px;
-  background-image: url(images/image_geometry_2.png);
-}
 
-/* projects section */
+/* Program section */
 
-.gallery {
-  display: grid;
-  flex-wrap: wrap;
-  width: 100vw;
+.program {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(circle, transparent 20%, #232a31 20%, #232a31 80%, transparent 80%, transparent) 0% 0% / 54px 54px, radial-gradient(circle, transparent 20%, #232a31 20%, #232a31 80%, transparent 80%, transparent) 27px 27px / 54px 54px, linear-gradient(#1a1a1e 3.5px, transparent 3.5px) 0px -1.75px / 27px 27px, linear-gradient(90deg, #1a1a1e 3.5px, #232a31 3.5px) -1.75px 0px / 27px 27px #232a31;
+  background-color: #232a31;
+
 }
 
 h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 3.5em;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
   font-weight: 400;
   line-height: 100%;
   padding: 16px;
   padding-bottom: 0;
   padding-top: 0;
-  margin: 40px 0 2rem;
+  margin: 40px auto 15px;
   background: #fff;
   background-color: transparent;
 }
 
-.card {
+.white {
+  color: #fff;
+}
+
+.line {
+  width: 30px;
+  height: 0;
+  border: 1px solid #a04038;
+  margin: 10px auto 30px;
+}
+
+.programArticle {
+  display: grid;
+  grid-template-columns: 24% 22% 50%;
+  background: url(pattern_bg.png), rgb(59, 62, 69, 0.5);
+  color: #fff;
+  margin-bottom: 2.68px;
+}
+
+.programTitle {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.2712px;
+  line-height: 25px;
   display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #ff5438;
+}
+
+.programArticle img {
+  padding: 15px 9px;
+}
+
+.programDescription {
+  width: 191.77px;
+  height: 82.06px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.7034px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #fff;
+  
+}
+
+/* Speakers section */
+
+.gallery {
+  display: grid;
   flex-wrap: wrap;
+  width: 90vw;
+  gap: 10px;
+  padding: 15.5px;
+}
+
+
+.card {
+  display: grid;
+  grid-template-columns: 30% 60%;
   width: 100vw;
+}
+
+.lineGray {
+  width: 17.79px;
+  height: 0px;
+  border: 1.5px solid #d9d9d9;
+}
+
+.imgp {
+  width: 107px;
 }
 
 .pData {
   width: 100%;
-  height: 156px;
-  background: #1a2236;
-  padding-left: 16px;
+  padding-left: 10px;
   bottom: 0;
 }
 
 h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 300%;
-  color: #fff;
 }
 
-.projectUl {
-  display: flex;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  list-style-type: none;
-  padding: 0;
-  padding-left: 0;
-  margin-bottom: 0;
-  width: 314px;
+.orange {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
 }
 
-.projectLi {
-  font-size: 10.33px;
-  background-color: #98dede;
-  float: left;
-  text-align: center;
-  margin-right: 10px;
-  padding: 6px;
-  padding-top: 1.5px;
-  padding-bottom: 1.5px;
+.black {
+  font-family: 'Lato', sans-serif;
+  font-size: 9px;
 }
 
-.see {
-  background: none;
-  border: #fff solid 0.5px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 7px 10px;
-  color: #dddfe6;
+.btnSpeakers {
+  font-family: 'Lato', sans-serif;
+  padding: 10px 40%;
+  display: grid;
+  margin: 5px auto;
+  background: #fff;
+  border-radius: 3px;
+  border:rgb(59, 62, 69, 0.5) 1px solid
 }
 
 /* Popup Project Mobile */
@@ -189,7 +261,7 @@ h3 {
 .project-title-modal {
   padding-left: 20px;
   color: #1a2236;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -218,7 +290,7 @@ h3 {
   list-style: none;
   color: #1a2236;
   border: 1px solid #1a2236;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 10.3334px;
@@ -226,7 +298,7 @@ h3 {
 }
 
 .project-description {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -247,7 +319,7 @@ h3 {
   width: 250px;
   height: 51px;
   border: 1px solid #1a2236;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -272,7 +344,7 @@ h3 {
 .textAbout {
   width: 90%;
   height: fit-content;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   line-height: 21px;
   color: #1a2236;
@@ -284,7 +356,7 @@ h3 {
 
 .boxL {
   padding: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -392,7 +464,7 @@ button:active {
 }
 
 .getStar {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 50px;
 }
@@ -403,7 +475,7 @@ button:active {
   border: 1px solid #dfdfe0;
   height: 46px;
   margin: 8px 18px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -445,7 +517,7 @@ button:active {
   border-radius: 4px;
   background-color: #fff;
   border: 1px solid #dfdfe0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   margin: 8px 18px;
@@ -470,6 +542,7 @@ label {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  display: none;
 }
 
 .resume {
@@ -822,7 +895,7 @@ label {
   }
 
   .project-title-modal {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -890,7 +963,7 @@ label {
   }
 
   .prev-btn {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -976,7 +1049,7 @@ label {
 
   .form-hello {
     width: 548px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 1em;
     line-height: 21px;
@@ -1018,7 +1091,7 @@ label {
 
   .form-name-contend {
     border-radius: 4px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1029,7 +1102,7 @@ label {
 
   .form-name-message {
     border-radius: 4px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 12px;
