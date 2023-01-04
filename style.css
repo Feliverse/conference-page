@@ -44,6 +44,10 @@ body {
   color: #ec5242;
 }
 
+.imgTitle {
+  width: 80%;
+}
+
 .date {
   font-family: 'Arial Narrow', Arial, sans-serif;
   font-size: 1.5em;
@@ -282,8 +286,10 @@ h3 {
   }
 
   body {
-    background-image: url(./images/big back.jpg);
+    background-image: url(./images/bigback.jpg);
     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: 200%;
   }
 
 .menu {
@@ -295,6 +301,10 @@ h3 {
   .menues {
     font-size: 1em;
   }
+
+.imgTitle {
+  width: 90%;
+}
 
   .desk {
     display: block;
@@ -331,6 +341,7 @@ h3 {
 
   .logo {
     width: 200px;
+    cursor: pointer;
   }
 
   /* hello section */
@@ -353,7 +364,7 @@ h3 {
   .hello-text {
     display: flex;
     flex-direction: column;
-    padding-left: 8em;
+    padding-left: 4em;
     justify-content: center;
   }
 

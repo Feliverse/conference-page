@@ -1,15 +1,7 @@
 {
-	"folders": [
-		{
-			"name": "conference-page",
-			"path": "."
-		},
-		{
-			"name": ".github",
-			"path": "../../../../GitHub/Felipe-Portfolio/.github"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "conference-page"
-	}
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }
