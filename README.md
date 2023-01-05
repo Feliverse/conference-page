@@ -60,17 +60,17 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Conference Page - Microverse Capstone] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[Conference Page - Microverse Capstone]** is a web page created whit pure HTML/CSS & Javascript code
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+HTML/CSS & Javascript
 
 <details>
   <summary>Client</summary>
@@ -99,9 +99,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[HTML]**
+- **[CSS]**
+- **[JavaScript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,39 +112,29 @@ After you're finished please remove all the comments and instructions!
 > Add a link to your deployed project.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
-
+- [Loom Video Presentation](https://www.loom.com/share/ae12d221fbdf498181028d47d3b9fc13)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
+Just clone the depsitore at GitHub: Feliverse
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+love coding
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:Feliverse/Conference-page.git
 ```
 --->
 
@@ -152,50 +142,19 @@ Example commands:
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+a browser
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+I love code
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+a Browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,17 +164,12 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Felipe Haybar**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Feliverse](https://github.com/Feliverse)
+- Twitter: [@FelipeHaybar](https://twitter.com/FelipeHaybar)
+- LinkedIn: [FelipeHaybar](https://linkedin.com/in/FelipeHaybar)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
