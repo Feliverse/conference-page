@@ -111,7 +111,7 @@ HTML/CSS & Javascript
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://https://feliverse.github.io/conference-page/)
 - [Loom Video Presentation](https://www.loom.com/share/ae12d221fbdf498181028d47d3b9fc13)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
