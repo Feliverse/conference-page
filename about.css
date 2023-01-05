@@ -296,6 +296,7 @@ h2 {
     line-height: 1.5;
     padding: 2% 3% 0;
     max-width: 900px;
+    margin-inline: auto;
   }
 
   h2 {
