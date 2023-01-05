@@ -185,7 +185,6 @@ projectInfo.forEach((project, index) => {
   const projectId = project.id;
   const projectName = project.name;
   const projectImage = project.image;
-  const projectTech = project.technologies;
   const projectImgAlt = project.alt;
   const projectCV = project.cv;
   const projectDescription = project.description;

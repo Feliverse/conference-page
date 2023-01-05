@@ -18,18 +18,36 @@ body {
   margin: 16px;
   padding-right: 16px;
   position: fixed;
-  right: 0;
+  left: 0;
   top: 0;
 }
 
 .menues {
   font-size: 21px;
 }
-.see,
+
 .desk,
-.bigmage,
-.form-name-message p {
+.btn {
   display: none;
+}
+
+.logo {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+
+.logomobil {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+
+.dark {
+  display: none;
+  background-color: #a04038;
 }
 
 .name {
@@ -54,7 +72,6 @@ body {
   font-weight: bold;
   padding: 0 16px;
   color: #595959;
-
 }
 
 .adress {
@@ -87,13 +104,13 @@ body {
 
 .blackBoton {
   font-family: 'Lato', sans-serif;
+  font-weight: bold;
   margin: 16px auto;
   width: 90%;
   height: 68px;
-  background: #FF4F38;
+  background: #ff4f38;
   color: #fff;
 }
-
 
 /* Program section */
 
@@ -102,9 +119,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: radial-gradient(circle, transparent 20%, #232a31 20%, #232a31 80%, transparent 80%, transparent) 0% 0% / 54px 54px, radial-gradient(circle, transparent 20%, #232a31 20%, #232a31 80%, transparent 80%, transparent) 27px 27px / 54px 54px, linear-gradient(#1a1a1e 3.5px, transparent 3.5px) 0px -1.75px / 27px 27px, linear-gradient(90deg, #1a1a1e 3.5px, #232a31 3.5px) -1.75px 0px / 27px 27px #232a31;
+  background: radial-gradient(circle, transparent 20%, #232a31 20%, #232a31 80%, transparent 80%, transparent) 0% 0% / 54px 54px, radial-gradient(circle, transparent 20%, #232a31 20%, #232a31 80%, transparent 80%, transparent) 27px 27px / 54px 54px, linear-gradient(#1a1a1e 3.5px, transparent 3.5px) 0 -1.75px / 27px 27px, linear-gradient(90deg, #1a1a1e 3.5px, #232a31 3.5px) -1.75px 0 / 27px 27px #232a31;
   background-color: #232a31;
-
 }
 
 h2 {
@@ -115,9 +131,10 @@ h2 {
   padding: 16px;
   padding-bottom: 0;
   padding-top: 0;
-  margin: 40px auto 15px;
+  margin: 40px auto 0;
   background: #fff;
   background-color: transparent;
+  display: table;
 }
 
 .white {
@@ -128,7 +145,7 @@ h2 {
   width: 30px;
   height: 0;
   border: 1px solid #a04038;
-  margin: 10px auto 30px;
+  margin: 10px auto;
 }
 
 .programArticle {
@@ -158,8 +175,7 @@ h2 {
 .programDescription {
   width: 191.77px;
   height: 82.06px;
-  font-family: 'Lato';
-  font-style: normal;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 10.7034px;
   line-height: 22px;
@@ -167,7 +183,6 @@ h2 {
   align-items: center;
   letter-spacing: 0.06em;
   color: #fff;
-  
 }
 
 /* Speakers section */
@@ -180,16 +195,15 @@ h2 {
   padding: 15.5px;
 }
 
-
 .card {
   display: grid;
   grid-template-columns: 110px 300px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .lineGray {
   width: 17.79px;
-  height: 0px;
+  height: 0;
   border: 1.5px solid #d9d9d9;
 }
 
@@ -228,30 +242,17 @@ h3 {
   margin: 5px auto;
   background: #fff;
   border-radius: 3px;
-  border:rgb(59, 62, 69, 0.5) 1px solid
+  border: rgb(59, 62, 69, 0.5) 1px solid;
 }
 
 /* footer section */
 
 .contenfoo {
   background: #414246;
-  display: flex;
+  display: none;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  display: none;
-}
-
-.resume {
-  display: flex;
-  align-items: center;
-  border: transparent;
-  color: #fff;
-  flex-grow: 2;
-  font-size: 16px;
-  background: transparent;
-  justify-content: center;
-  margin: 21px 16px;
 }
 
 .rsFooter {
@@ -269,18 +270,39 @@ h3 {
   list-style: none;
   transition-duration: 1.7s;
   cursor: pointer;
+  zoom: 0.9;
 }
 
 .rrss:hover {
   zoom: 1.15;
 }
 
+.rigthsWhite {
+  display: none;
+  column-gap: 4%;
+  width: 80vw;
+  margin: 5% auto;
+  align-items: center;
+}
+
+.logoFooter {
+  width: 30%;
+}
+
+.textRigths {
+  font-family: 'Lato', sans-serif;
+  font-size: 50%;
+  line-height: 1;
+  width: 70%;
+}
+
+.hide {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   /* Header change nav */
-  .img-mobile-container {
-    display: none;
-  }
-
+  .img-mobile-container,
   #toolbar {
     display: none;
   }
@@ -288,23 +310,23 @@ h3 {
   body {
     background-image: url(./images/bigback.jpg);
     background-repeat: no-repeat;
-     background-position: top center;
-     background-size: 200%;
+    background-position: top center;
+    background-size: 200%;
   }
 
-.menu {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
   .menues {
     font-size: 1em;
   }
 
-.imgTitle {
-  width: 90%;
-}
+  .imgTitle {
+    width: 90%;
+  }
 
   .desk {
     display: block;
@@ -332,7 +354,6 @@ h3 {
 
   .special {
     border: #ff5438 4px solid;
-    height: fit-content;
     padding: 4px 18px;
     line-height: 2;
     font-weight: bold;
@@ -340,8 +361,21 @@ h3 {
   }
 
   .logo {
+    position: inherit;
     width: 200px;
     cursor: pointer;
+  }
+
+  .dark {
+    background: #3e3e3e;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.7em;
+    display: grid;
+    grid-template-columns: 3% 3% 6% 6% 6%;
+    justify-content: end;
+    align-items: center;
+    padding-right: 8%;
   }
 
   /* hello section */
@@ -356,7 +390,6 @@ h3 {
     font-size: 1.2em;
     line-height: 1.5;
     width: 70%;
-    height: fit-content;
     letter-spacing: -0.01em;
     font-weight: 400;
   }
@@ -375,13 +408,13 @@ h3 {
   .date {
     font-size: 2.3em;
   }
-  
+
   .adress {
     font-size: 1.5em;
     color: #868686;
     padding-bottom: 15%;
   }
-  
+
   .blackBoton {
     width: 60%;
   }
@@ -392,7 +425,7 @@ h3 {
 
   .blackBoton:hover {
     background: #fff;
-    border-color: none;
+    border-color: transparent;
     border-width: 1px;
     color: #272a31;
   }
@@ -427,6 +460,7 @@ h3 {
     justify-content: center;
     padding: 4% 0;
   }
+
   .programArticle {
     display: flex;
     flex-direction: column;
@@ -445,6 +479,7 @@ h3 {
     width: auto;
     height: auto;
     padding: 6%;
+    text-align: center;
   }
 
   .gallery {
@@ -458,7 +493,6 @@ h3 {
 
   .card {
     grid-template-columns: 110px 25%;
-  
   }
 
   .pData {
@@ -479,23 +513,17 @@ h3 {
     align-items: center;
     column-gap: 5%;
     zoom: 0.7;
-    
-  }
-   .dark {
-    background: #3e3e3e;
-    color: #fff;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.7em;
-    display: grid;
-    grid-template-columns: 3% 3% 6% 6% 6%;
-    justify-content: end;
-    align-items: center;
-    padding-right: 8%;
   }
 
-  .blue {
-    color: rgba(10, 188, 233, 0.774);
-    padding-left: 0;
+  .rigthsWhite {
+    display: flex;
+  }
+
+  .textRigths {
+    font-size: 80%;
+  }
+
+  .logomobil {
+    display: none;
   }
 }
-
