@@ -60,11 +60,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Conference Page - Microverse Capstone] <a name="about-project"></a>
+# 📖 Conference Page - Microverse Capstone <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[Conference Page - Microverse Capstone]** is a web page created whit pure HTML/CSS & Javascript code
+**Conference Page - Microverse Capstone** is a web page created whit pure HTML/CSS & Javascript code.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -97,11 +95,10 @@ HTML/CSS & Javascript
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[HTML]**
-- **[CSS]**
-- **[JavaScript]**
+- **HTML**
+- **CSS**
+- **JavaScript**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +106,6 @@ HTML/CSS & Javascript
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 - [Loom Video Presentation](https://www.loom.com/share/ae12d221fbdf498181028d47d3b9fc13)
@@ -125,7 +121,7 @@ Just clone the depsitore at GitHub: Feliverse
 
 In order to run this project you need:
 
-love coding
+to love coding
 
 ### Setup
 
@@ -148,7 +144,7 @@ a browser
 
 To run the project, execute the following command:
 
-I love code
+<I love code>
 
 ### Deployment
 
@@ -162,7 +158,6 @@ a Browser
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Felipe Haybar**
 
@@ -177,11 +172,10 @@ a Browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Program section**
+- [ ] **page for each speaker **
+- [ ] **formulary section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,9 +193,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project bring me a star ⭐️ at the Github repository.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,25 +202,11 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank my code partners: Anderson Canales and Jorge Singûeza.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
