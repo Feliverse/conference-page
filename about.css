@@ -176,9 +176,13 @@ h2 {
 
 .textRigths {
   font-family: 'Lato', sans-serif;
-  font-size: 70%;
+  font-size: 40%;
   line-height: 1;
   width: 70%;
+}
+
+.rigthsWhite div span {
+  font-size: 40%;
 }
 
 .contenfoo {
