@@ -31,6 +31,10 @@ body {
   display: none;
 }
 
+.desk {
+  height: 100%;
+}
+
 .logo {
   width: 50%;
   position: absolute;
