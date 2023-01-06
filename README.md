@@ -107,7 +107,7 @@ HTML/CSS & Javascript
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://feliverse.github.io/conference-page/)
 - [Loom Video Presentation](https://www.loom.com/share/ae12d221fbdf498181028d47d3b9fc13)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
